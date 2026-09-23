@@ -1,0 +1,24 @@
+/* for (let i = 0; i < 4; i++) {
+  console.log(i);
+} */
+
+/* let x = 10;
+while (x > 0) {
+  x = x - 1;
+  console.log(x);
+} */
+
+const students = ["Eva", "Ava", "Elliot", "Abbee"];
+students.push("Leo");
+// console.log(students[4]);
+// console.log(students[students.length - 1]);
+console.log(students.includes("Whalen"));
+for (let i = 0; i < students.length; i++) {
+  console.log(i, students[i]);
+}
+
+students.forEach((student) => {
+  if (student === "Abbee") {
+    console.log(student, "we found them");
+  }
+});
