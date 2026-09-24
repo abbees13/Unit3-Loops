@@ -12,7 +12,7 @@ const students = ["Eva", "Ava", "Elliot", "Abbee"];
 students.push("Leo");
 // console.log(students[4]);
 // console.log(students[students.length - 1]);
-console.log(students.includes("Whalen"));
+// console.log(students.includes("Whalen"));
 for (let i = 0; i < students.length; i++) {
   console.log(i, students[i]);
 }
