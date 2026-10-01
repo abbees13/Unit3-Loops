@@ -11,14 +11,13 @@ function countVowels(str) {
 
 const Vowel = ["a", "e", "i", "o", "u"];
 function countVowels(str) {
+  let vow = 0;
   for (let i = 0; i < str.length; i++) {
     if (Vowel.includes(str[i])) {
-      Vowel.push(i);
-      console.log(str);
-    } else {
-      console.log(str);
+      vow++;
     }
   }
+  return vow;
 }
 
 console.log(countVowels("hello")); // 2
